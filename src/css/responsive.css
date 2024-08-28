@@ -1,0 +1,11 @@
+@media(min-width: 376px) {
+    body {
+        background-image: url("../assets/images/background-pattern-desktop.svg");
+    }
+}
+
+@media(min-width: 1024px) {
+    .title h1 {
+        font-size: 2.5rem;
+    }
+}

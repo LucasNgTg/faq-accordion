@@ -1,0 +1,135 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+    --accent-purple: hsl(281, 83%, 54%);
+}
+
+@font-face {
+    font-family: "WorkSans";
+    font-style: normal;
+    src: url("../assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: "WorkSans", sans-serif;
+}
+
+body {
+    background-color: var(--light-pink);
+    position: relative;
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    padding: 10rem 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 37.5rem;
+    height: min-content;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--dark-purple);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tbody > *:not(:last-child, :first-child) {
+    border-block: 2px solid var(--light-pink);
+}
+
+.question {
+    font-size: 1.25rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    padding: 1rem 0;
+    color: var(--dark-purple);
+    position: relative;
+}
+
+.question:hover {
+    color: var(--accent-purple);
+    cursor: pointer;
+}
+
+.question h2 {
+    font-size: 1rem;
+    text-align: start;
+    max-width: 80%;
+}
+
+.plus, .minus {
+    position: absolute;
+    right: 0;
+    background-color: var(--white);
+    transition: .2s ease-in-out;
+}
+
+.plus {
+    z-index: 1;
+}
+
+[data-transparent="true"] {
+    opacity: 0;
+}
+
+[data-rolled="true"] {
+    transform: rotate(180deg);
+}
+
+.answer {
+    padding-bottom: 1rem;
+    color: var(--grayish-purple);
+    display: grid;
+    grid-template-rows: 1fr;
+    max-width: 32rem;
+    transition: .2s ease-in-out;
+}
+
+.answer > p {
+    overflow: hidden;
+    line-height: 150%;
+}
+
+[data-showing="false"] {
+    grid-template-rows: 0fr;
+    padding-bottom: 0;
+}
+
+.attribution {
+    background-color: var(--dark-purple);
+    font-size: .6rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.attribution span {
+    color: var(--light-pink);
+}
+
+.attribution a {
+    color: #6abecd;
+}
