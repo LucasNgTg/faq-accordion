@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/LucasNgTg/faq-accordion/gh-pages/static/css/main.42b714a0.css",
-    "main.js": "/LucasNgTg/faq-accordion/gh-pages/static/js/main.2e157a99.js",
-    "static/js/453.41047a73.chunk.js": "/LucasNgTg/faq-accordion/gh-pages/static/js/453.41047a73.chunk.js",
-    "static/media/WorkSans-VariableFont_wght.ttf": "/LucasNgTg/faq-accordion/gh-pages/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
-    "static/media/background-pattern-mobile.svg": "/LucasNgTg/faq-accordion/gh-pages/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
-    "static/media/background-pattern-desktop.svg": "/LucasNgTg/faq-accordion/gh-pages/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
-    "index.html": "/LucasNgTg/faq-accordion/gh-pages/index.html",
-    "static/media/icon-star.svg": "/LucasNgTg/faq-accordion/gh-pages/static/media/icon-star.189fd38b8aefdc8fbe0d4008b1ff497e.svg",
-    "static/media/icon-plus.svg": "/LucasNgTg/faq-accordion/gh-pages/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
-    "static/media/icon-minus.svg": "/LucasNgTg/faq-accordion/gh-pages/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
-    "main.42b714a0.css.map": "/LucasNgTg/faq-accordion/gh-pages/static/css/main.42b714a0.css.map",
-    "main.2e157a99.js.map": "/LucasNgTg/faq-accordion/gh-pages/static/js/main.2e157a99.js.map",
-    "453.41047a73.chunk.js.map": "/LucasNgTg/faq-accordion/gh-pages/static/js/453.41047a73.chunk.js.map"
+    "main.css": "/faq-accordion/static/css/main.d1874ef4.css",
+    "main.js": "/faq-accordion/static/js/main.078b6d7d.js",
+    "static/js/453.41047a73.chunk.js": "/faq-accordion/static/js/453.41047a73.chunk.js",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/faq-accordion/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
+    "static/media/background-pattern-mobile.svg": "/faq-accordion/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
+    "static/media/background-pattern-desktop.svg": "/faq-accordion/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
+    "index.html": "/faq-accordion/index.html",
+    "static/media/icon-star.svg": "/faq-accordion/static/media/icon-star.189fd38b8aefdc8fbe0d4008b1ff497e.svg",
+    "static/media/icon-plus.svg": "/faq-accordion/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
+    "static/media/icon-minus.svg": "/faq-accordion/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
+    "main.d1874ef4.css.map": "/faq-accordion/static/css/main.d1874ef4.css.map",
+    "main.078b6d7d.js.map": "/faq-accordion/static/js/main.078b6d7d.js.map",
+    "453.41047a73.chunk.js.map": "/faq-accordion/static/js/453.41047a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b714a0.css",
-    "static/js/main.2e157a99.js"
+    "static/css/main.d1874ef4.css",
+    "static/js/main.078b6d7d.js"
   ]
 }
